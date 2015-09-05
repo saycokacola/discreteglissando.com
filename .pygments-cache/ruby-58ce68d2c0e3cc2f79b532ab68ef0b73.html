@@ -1,0 +1,9 @@
+<div class="highlight"><pre><span class="c1">## -- Rsync Deploy config -- ##</span>
+<span class="c1"># Be sure your public key is listed in your server&#39;s ~/.ssh/authorized_keys file</span>
+<span class="n">ssh_user</span>       <span class="o">=</span> <span class="s2">&quot;user@.mydomain.com&quot;</span>
+<span class="n">ssh_port</span>       <span class="o">=</span> <span class="s2">&quot;22&quot;</span>
+<span class="n">document_root</span>  <span class="o">=</span> <span class="s2">&quot;~/website.com/&quot;</span>
+<span class="n">rsync_delete</span>   <span class="o">=</span> <span class="kp">true</span>
+<span class="n">rsync_args</span>     <span class="o">=</span> <span class="s2">&quot;&quot;</span>  <span class="c1"># Any extra arguments to pass to rsync</span>
+<span class="n">deploy_default</span> <span class="o">=</span> <span class="s2">&quot;rsync&quot;</span>
+</pre></div>

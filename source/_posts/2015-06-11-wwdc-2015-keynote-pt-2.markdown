@@ -1,0 +1,42 @@
+---
+layout: post
+title: "WWDC 2015 키노트 (2)"
+date: 2015-06-11 18:59
+comments: true
+categories: technology
+---
+
+{% img /images/WWDC-2015.jpg %}
+
+[OS X El Capitan](https://en.wikipedia.org/wiki/OS_X_El_Capitan)과 [iOS 9](https://en.wikipedia.org/wiki/IOS_9)에 관한 이야기가 끝이 난 후에는 아무도 예상하지 못했던 아주 놀라운 소식과 [watchOS 2](https://en.wikipedia.org/wiki/WatchOS), [애플 뮤직](https://en.wikipedia.org/wiki/Apple_Music)에 대한 발표가 이어졌다.
+
+<!--more-->
+
+## Swift 2, OPEN SOURCE!
+
+iOS 9에 대한 발표가 마무리된 후, [Craig Federighi](https://en.wikipedia.org/wiki/Craig_Federighi)는 아주 놀랍고 기쁜 소식을 전했다. 바로 애플에서 개발한 프로그래밍 언어인 [Swift](https://en.wikipedia.org/wiki/Swift_programming_language)의 새로운 버전인 Swift 2가 [오픈 소스](https://en.wikipedia.org/wiki/Open_source)로 공개될 것이라는 것이다! 또한 iOS와 OS X만 지원하지 않고 [리눅스](https://en.wikipedia.org/wiki/Linux)도 지원할 것이라고 한다. 이는 많은 개발자들이 관심 있어하고 시도하고 잇는 Swift의 멀티 플랫폼화에 큰 힘이 될 것이다. 또한 오픈 소스로 공개하면서 Swift 자체의 기능과 능력이 더욱더 훌륭하게 발전할 수 있는 것이다.
+
+다소 폐쇄적인 이미지를 가지고 있는 애플에서 이런 결정을 내린 것은 정말 흥미롭고 반갑다. 이 결정은 애플과 개발자, 그리고 일반 사용자들 모두에게 큰 이익이 될 것이다. 이 발표를 보고나니 Swift 2가 공개될 날이 정말 기다려진다. 또한 나도 꼭 Swift를 배워야겠다는 생각이 더 강하게 든다.
+
+## watchOS 2
+
+나는 애플 워치를 사용하거나 실제로 보지도 못하였지만 그에 대한 리뷰들을 읽어보니 나쁜 기기는 아니지만 아직 기능이 제한적이기에 적극적으로 활용하기가 힘들다는 평이 많았다. 과연 애플이 이러한 지적을 해결했을지가 굉장히 궁금하였다. 
+
+발표 내용을 보니 애플이 그러한 지적을 의식하고 개선을 하기 위해 노력한 것으로 보인다. 기존의 watchOS에서는 외부 어플리케이션의 경우 웹앱만 이용할 수 있었지만 watchOS 2에서는 외부 네이티브 어플리케이션도 지원한다고 한다. 이 업데이트로 인하여 개발자들은 보다 더 다양한 종류의 애플 워치 앱들을 개발할 수 있을 것이다. 특히 웨어러블 기기만의 특성들과, 애플 워치의 포스 터치(force touch) 기능을 살린다면 지금까지 상상도 하지 못했던 앱들도 만들어질 수 있을 것으로 보인다. 현재 애플의 가장 큰 경쟁자 중 하나인 [삼성](http://www.samsung.com/sec/home/)의 [갤럭시 기어](https://en.wikipedia.org/wiki/Samsung_Gear_S) 시리즈와 [샤오미](https://en.wikipedia.org/wiki/Xiaomi)의 [Mi 밴드](https://en.wikipedia.org/wiki/Xiaomi_Mi_Band) 등 다른 기업의 웨어러블 기기들과의 경쟁 또한 더욱 치열해질듯 한데, 그 결과가 어떻게 될지도 궁금하다.
+
+##  Music
+
+작년인 2014년에 애플이 [Beats Electronics](https://en.wikipedia.org/wiki/Beats_Electronics)를 인수할 때 [Beats Music](https://en.wikipedia.org/wiki/Beats_Music)도 같이 매각되었었다. 이에 많은 애플 사용자들이 [iTunes Radio](https://en.wikipedia.org/wiki/ITunes_Radio)외의 새로운 라디오 서비스나 애플만의 음악 스트리밍 서비스가 등장할 것이라는 기대와 예측을 하였는데, 그것은 애플 뮤직이라는 이름으로 현실화되었다. 애플 뮤직은 전형적인 음악 스트리밍 서비스와 함께 Connect라는 이름의 블로그 플랫폼과 각 사용자의 음악 취향에 따른 음악 추천 서비스, 그리고 라디오 서비스를 제공한다. 자칫 보면 그리 대단하지 않은 기능처럼 느꺼지겠지만 그렇지 않고 정말 많은 공을 들인 훌륭한 기능들이다.
+
+Conncet는 애플 뮤직 사용자들이 서로의 교류를 위해 사용하는 블로그가 아니다. Connect는 음악가들이 가입하여 자신의 음악을 듣고 좋아하는 팬들과의 교류를 위해서 사용되기 위해 만들어진 기능이다. Connect에 업로드되는 일부 미디어는 Connect에서만 독점적으로 공개될 것이라고 한다. Beats 1은 애플 뮤직 사용자들이 iTunes Radio 대신에 듣을 수 있게 되는 라디오 서비스로, 유명 DJ들인 [Zane Lowe](https://en.wikipedia.org/wiki/Zane_Lowe), [Ebro Darden](https://en.wikipedia.org/wiki/Ebro_Darden), [Julie Adenuga](https://en.wikipedia.org/wiki/Julie_Adenuga)가 진행하면서 24시간 내내 방송된다. 음악 추천 서비스의 경우, 사용자들이 애플 뮤직을 처음으로 실행할 때 입력하는 자신이 좋아하는 장르들과 이후에 스트리밍을 이용하면서 듣는 음악들을 분석하여 사용자가 좋아할만한 음악을 추천해주는 기능이다. 이는 실제 전문가들의 의견이 반영된 알고리즘이 반영된 것이고, 새로운 음악이 나올때마다 빠르게 갱신되어 새로운 음악도 빠르게 추천을 받을 수 있다고 한다. 애플 뮤직을 iOS 9의 발전된 Siri와도 사용할 수 있다. Siri에게 특정한 날짜에 관련된 노래나 어떤 영화에 나왔던 음악을 재생해달라는 명령을 내리면 애플 뮤직의 데이터베이스에 접속하여 그 음악을 정확하게 재생해 준다. 
+
+애플 뮤직은 iOS 8.4와 함께 6월 30일에 공개될 예정이라 한다. 과연 한국에서도 이 서비스를 사용할 수 있을지는 모르겠지만[^1] 정말 기대되는 서비스이다.
+
+## Overall
+
+WWDC의 키노트를 시청한 것은 이번이 처음인데, 정말 재미있는 경험이었다. 특히나 이번에 발표된 내용들 중 마음에 들고 기대되는 것들이 많아서 더더욱 좋았다. OS X El Capitan, iOS 9, Swift 2는 정말 빠른 시일 내에 공개되었으면 좋겠다. 그 중에서도 가장 기대되는 것은 Swift 2로, 위에서도 이야기하였지만 오픈 소스화 하면서 어떠한 식으로 발전할지가 기대되고 기다려진다. 마지막으로 드는 생각은 나도 언젠가 직접 WWDC에 참가하여 바로 내 눈 앞에서 한번 이런 키노트를 보고 싶은 것이다. 그런 날이 올 수 있도록 더더욱 공부를 열심히 해야겠다.
+
+*  [WWDC 2015 키노트(1)](/blog/2015/06/09/wwdc-2015-keynote-pt-1/)  
+*  [WWDC 2015 키노트 보러가기](https://www.youtube.com/watch?v=_p8AsQhaVKI)
+
+[^1]: 2015년 7월 현재, 한국 애플 아이디로는 이용할 수 없다.

@@ -1,0 +1,92 @@
+---
+layout: post
+title: "파이썬 BeautifulSoup 모듈"
+date: 2014-12-03 19:45
+comments: true
+categories: technology
+---
+
+BeautifulSoup 모듈은 [HTML](http://en.wikipedia.org/wiki/HTML)과 [XML](http://en.wikipedia.org/wiki/XML)을 파싱하는 데에 사용되는 파이썬 라이브러리이다. 현재 개발되고 있는 버전은 BeautifulSoup4이다. 이전에 사용되던 BeautifulSoup3는 더이상 개발이 진행되고 있지 않기 때문에 새롭게 시작하는 프로젝트에서는 BeautifulSoup4를 사용하는 것이 권장된다.
+
+2014년 12월을 기준으로 Beautiful Soup 4는 4.3.2 버전까지 개발이 되었다. 설치는 간단하게 pip를 이용하면 된다.
+
+<!--more-->
+
+``` console
+$ pip install beautifulsoup4
+```
+
+이 때 주의해야할 점은 `beautifulsoup` 패키지를 설치하지 않아야한다는 것이다. `beautifulsoup`은 이전 버전인 BeautifulSoup3를 설치할 때에만 사용한다.
+
+## 문서 개체 생성해서 HTML 파싱하기
+
+BeautifulSoup를 이용해서 HTML을 파싱할 때에는 파싱할 문서를 BeautifulSoup 클래스의 생성자에 넘겨주어 문서 개체를 생성한다. 이 문서 개체를`soup`이라 부르는 것이 BeautifulSoup 사용자들의 관습이다.
+
+``` python
+from bs4 import BeautifulSoup
+
+soup = BeautifulSoup(open("index.html"))
+```
+
+파서는 기본적으로 파이썬에 들어잇는 html.parser를 사용하는데, lxml 등의 외부 파서도 pip을 이용해 설치한 후에
+
+``` console
+$ pip install lxml
+```
+
+다음과 같이 사용할 수 있다.
+
+``` python
+from bs4 import BeautifulSoup
+
+soup1 = BeautifulSoup(open("index.html"), "lxml")
+soup2 = BeautifulSoup("<html>data</html>")
+```
+
+urllib 또는 Requests 모듈을 함께 사용하여 특정한 url을 주어준 후 그 url의 HTML을 파싱할 수도 있다. 
+
+``` python
+import requests
+from bs4 import BeautifulSoup
+
+html = requests.get("http://www.hwanho.net")
+soup = BeautifulSoup(html, "lxml")
+```
+
+Soup 개체를 생성한 후에는 `find`와 `find_all` 메쏘드를 사용하여 HTML에서 원하는 내용을 탐색하면 된다. 탐색을 할 때는 원하는 내용의 HTML 태그 또는 클래스 등의 정보를 같이 입력해야 한다. `find` 메쏘드는 해당되는 내용 중 HTML을 탐색해서 가장 처음에 나오는 결과 하나만을 돌려주고, `find_all` 메쏘드는 모든 결과를 돌려준다.
+
+``` python
+import requests
+from bs4 import BeautifulSoup
+
+r = requests.get("http://www.hwanho.net")
+r.encoding = "utf-8"
+soup = BeautifulSoup(r.text)
+postTitles = soup.find_all(class_="entry-title")
+
+for postTitle in postTitles:
+    print(postTitle.text)
+```
+
+위의 코드를 실행하면 다음과 같이 [http://www.hwanho.net](http://www.hwanho.net)의 HTML에서 "entry-title"이라는 클래스에 해당되는 텍스트 요소가 출력된다.
+
+``` console
+2014 Open Technet Summit Fall (세션 2)
+2014 Open Technet Summit Fall (세션 1)
+Ambient Black Metal Intro
+파이썬 Argparse 모듈
+스크립트 언어
+⋮
+⋮
+⋮
+```
+
+이러한 방법을 통해 HTML에서 필요한 부분을 탐색하여 크롤러 등의 개발에 활용할 수 있다.
+
+BeautifulSoup 모듈에 대한 더 자세한 정보는 다음에서 얻을 수 있다.
+
+* [Beautiful Soup Documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
+* [python for beginners](http://www.pythonforbeginners.com/python-on-the-web/beautifulsoup-4-python/)  
+* [Pythonista Documentation](http://omz-software.com/pythonista/docs/ios/beautifulsoup_ref.html)
+
+

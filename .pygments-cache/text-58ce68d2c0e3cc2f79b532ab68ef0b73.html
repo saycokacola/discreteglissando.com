@@ -1,0 +1,9 @@
+<div class="highlight"><pre>## -- Rsync Deploy config -- ##
+# Be sure your public key is listed in your server&#39;s ~/.ssh/authorized_keys file
+ssh_user       = &quot;user@.mydomain.com&quot;
+ssh_port       = &quot;22&quot;
+document_root  = &quot;~/website.com/&quot;
+rsync_delete   = true
+rsync_args     = &quot;&quot;  # Any extra arguments to pass to rsync
+deploy_default = &quot;rsync&quot;
+</pre></div>

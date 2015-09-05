@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Nebula"
+date: 2014-02-26 23:02
+comments: true
+external-url:
+categoreis: Music
+---
+{% soundcloud https://soundcloud.com/lee-hwanho-william/echoes-of-the-sea-cave %}
+
+Nebula는 내가 우주를 테마로 작곡한 세 개의 [앰비언트](http://en.wikipedia.org/wiki/Ambient_music) 곡 중 가장 마지막에 작곡한 곡이다. 
+
+Nebula의 테마는 [성운](https://en.wikipedia.org/wiki/Nebula)이다. 서운의 안에 있다면 어떠한 느낌이 들지를 상상하며 작업한 곡으로, 신비하고 우주적인 분위기를 연출하고자 했다.

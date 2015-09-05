@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Appcelerator Titanium"
+date: 2015-05-01 22:49
+comments: true
+categories: technology
+published: false
+---
+
+Titanium은 [Appcelerator](http://www.appcelerator.com/)에서 개발한 [오픈 소스](https://en.wikipedia.org/wiki/Open-source_software) 프레임웍으로, 내가 [작년 가을](/blog/2014/11/05/2014-open-technet-summit-fall-session-one/)[오픈 테크넷](/blog/2014/11/06/2014-open-technet-summit-fall-session-two/)를 통해 처음 알게되었다. 

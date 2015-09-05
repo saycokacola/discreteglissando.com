@@ -1,0 +1,14 @@
+---
+layout: post
+title: "매화"
+date: 2014-03-04 19:07
+comments: true
+external-url:
+categories: [Music]
+---
+
+{% soundcloud https://soundcloud.com/lee-hwanho-william/ywh6jh8ho7id %}
+
+매화는 얼마 전에 공개된 나와 [GoodWeather](https://soundcloud.com/toogoodweather)님의 [스플릿 앨범](http://en.wikipedia.org/wiki/Split_album) [Wintersphere](/blog/2014/03/01/hwanho-lee-goodweather-wintersphere/)에 포함된 나의 [앰비언트](http://en.wikipedia.org/wiki/Ambient_music) 트랙이다. 많지 않은 [신디사이저](http://en.wikipedia.org/wiki/Synthesizer)로 구성된 [미니멀리스틱](http://en.wikipedia.org/wiki/Minimal_music)한 트랙으로, [드론](http://en.wikipedia.org/wiki/Drone_music)의 느낌이 나기도 하는 곡이다.
+
+이 트랙은 곡을 완성한 후에 제목을 붙였는데, 처음 GoodWeather님께 이 트랙을 들려드렸을 때 차가움 속에서 생명이 탄생하는 듯한 느낌이 느껴진다고 하셔서 한 겨울에 피어나는 꽃인 매화를 제목으로 붙이게 되었다.

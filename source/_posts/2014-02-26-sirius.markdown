@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Sirius"
+date: 2014-02-26 22:40
+comments: true
+external-url:
+categories: Music
+---
+{% soundcloud https://soundcloud.com/lee-hwanho-william/sirius %}
+
+[Floating in the Galaxy](/blog/2014/02/26/floating-in-the-galaxy/)를 작곡한 후에 우주를 테마로 한 [앰비언트](http://en.wikipedia.org/wiki/Ambient_music) 곡들을 두 곡 더 작곡했는데 그 중 하나가 Sirius이다. 
+
+Sirius라는 제목에서도 알 수 있듯이 이 곡의 테마는 밤하늘에서 가장 밝게 빛나는 별인 [시리우스](http://en.wikipedia.org/wiki/Sirius)이다. 이 곡은 화려하지 않고 [미니멀리스틱](http://en.wikipedia.org/wiki/Minimal_music)한 느낌이 강한데 이것은 내가 시리우스 자체가 아닌 그 주변에서 시리우스를 더욱 빛나게 해주는 평화로운 우주를 표현하려 했기 때문이다. 

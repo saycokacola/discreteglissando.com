@@ -1,0 +1,16 @@
+---
+layout: post
+title: "MongoDB"
+date: 2014-12-10-20:11
+comments: true
+categoreis: technology
+---
+
+MongoDB(Humongou에서 따온 이름이다)는 [오픈 소스](http://en.wikipedia.org/wiki/Free_and_open-source_software) 크로스-플랫폼의 문서 지향 데이터베이스이다. MongDB는 10gen(현재의 [MongoDB Inc.](http://en.wikipedia.org/wiki/MongoDB_Inc.))에서 2007년에 개발을 시작하여 2009년에 오픈 소스 프로젝트로 전환한 후 2014년 12월을 기준으로 2.6.6 버전까지 개발이 되었고[^1], [GNU AGPL 라이선스](http://en.wikipedia.org/wiki/Affero_General_Public_License)와 [Apache 라이선스](http://en.wikipedia.org/wiki/Apache_License)가 혼합된 형태의 오픈 소스 소프트웨어로 공개되어 있다.
+
+<!--more-->
+
+MongoDB는 정통적인 관계형 데이터베이스와는 다르게 [JSON](http://en.wikipedia.org/wiki/JSON) 형태의 문서인 [BSON](http://en.wikipedia.org/wiki/BSON)을 이용하여 데이터베이스를 구축한다는 큰 특징을 가지고 있다. 이처럼 관계형 데이터베이스와 다른 방식으로 데이터베이스를 구축하는 데이터베이스들을 [NoSQL](http://en.wikipedia.org/wiki/NoSQL) 데이터베이스라고 하는데 MongoDB는 그러한 NoSQL 데이터베이스 중 가장 널리 사용되고 있다고 한다. 현재 여러 많은 웹사이트와 웹서비스들에서 MongdoDB를 이용하고 있는데 그 중 대표적인 몇 가지로는 [Craigslist](http://www.craigslist.org), [eBay](http://www.ebay.com), [Foursquare](http://www.foursquare.com), [SourceForge](http://www.sourceforge.net), [Viacom](http://www.viacom.com), [New York Times](http://www.nytimes.com)가 있다.
+
+
+[^1]: 2015년 3월 3일에 MongoDB 3.0.0 버전이 공개되었다.
