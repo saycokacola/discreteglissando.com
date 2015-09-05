@@ -11,3 +11,6 @@ footer: true
 
 * [https://hwanholee.bandcamp.com/](https://hwanholee.bandcamp.com/)  
   My bandcamp.
+
+* [https://github.com/saycokacola/discreteglissando.com](https://github.com/saycokacola/discreteglissando.com)  
+  Source of blog.
