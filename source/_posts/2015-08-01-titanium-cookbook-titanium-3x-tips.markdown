@@ -3,7 +3,7 @@ layout: post
 title: "타이타늄 모바일 앱 프로그래밍과 현재의 iOS 개발"
 date: 2015-08-01 23:12:27 +0900
 comments: true
-categories: [technology, ios, titanium. development]
+categories: [technology, ios, titanium, development]
 ---
 
 {% img /images/titanium_alloy.jpg %}
